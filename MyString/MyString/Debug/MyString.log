@@ -1,0 +1,14 @@
+﻿Build started 4/19/2016 9:43:44 PM.
+     1>Project "C:\Projects\Visual Studio Projects\MyString\MyString\MyString.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\IDE\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Mystring_func.cpp
+         Mystring_func.cpp
+     1>c:\projects\visual studio projects\mystring\mystring\mystring_func.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\IDE\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\Visual Studio Projects\MyString\Debug\MyString.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Projects\Visual Studio Projects\MyString\Debug\MyString.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\Visual Studio Projects\MyString\Debug\MyString.lib" /MACHINE:X86 Debug\Mystring_func.obj
+         MyString.vcxproj -> C:\Projects\Visual Studio Projects\MyString\Debug\MyString.exe
+     1>Done Building Project "C:\Projects\Visual Studio Projects\MyString\MyString\MyString.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31
